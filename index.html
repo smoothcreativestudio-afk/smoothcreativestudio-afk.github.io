@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Página informativa de António Rodrigues Luís">
+  <meta
+    name="description"
+    content="Página informativa de António Rodrigues Luís"
+  >
   <title>Página informativa</title>
 
   <link rel="stylesheet" href="style.css">
@@ -17,12 +20,36 @@
 
   <main class="conteudo">
     <section>
+      <h2>Relógio em tempo real</h2>
+
+      <div id="timedate" role="timer" aria-label="Data e hora atuais">
+        <div class="data">
+          <span id="mon">Janeiro</span>
+          <span id="d">1</span>,
+          <span id="y">2026</span>
+        </div>
+
+        <div class="hora">
+          <span id="h">00</span> :
+          <span id="m">00</span> :
+          <span id="s">00</span> :
+          <span id="mi">000</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
       <h2>Sobre esta página</h2>
+
       <p>
-        Este é um exemplo de uma página estática alojada gratuitamente no GitHub Pages.
+        Este é um exemplo de uma página estática alojada gratuitamente
+        no GitHub Pages.
       </p>
 
-      <button id="botaoMensagem">Carregar para ver uma mensagem</button>
+      <button id="botaoMensagem" type="button">
+        Carregar para ver uma mensagem
+      </button>
+
       <p id="mensagem"></p>
     </section>
   </main>
