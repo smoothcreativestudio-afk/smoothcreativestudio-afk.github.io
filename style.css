@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #1f2937;
+  background: #f3f4f6;
+}
+
+.cabecalho {
+  padding: 4rem 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  background: #111827;
+}
+
+.cabecalho h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.conteudo {
+  width: min(900px, calc(100% - 2rem));
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+button {
+  padding: 0.8rem 1rem;
+  border: 0;
+  border-radius: 6px;
+  color: #ffffff;
+  font: inherit;
+  cursor: pointer;
+  background: #2563eb;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+#mensagem {
+  min-height: 1.5rem;
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+}
