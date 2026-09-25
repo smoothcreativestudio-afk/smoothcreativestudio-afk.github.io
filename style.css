@@ -22,6 +22,18 @@ body {
   font-size: clamp(2rem, 5vw, 3.5rem);
 }
 
+body {background-color:#2d2d2d;font-size: 10rem;}
+
+#timedate {
+  font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  text-align:left;
+  width: 50%;
+  margin: 40px auto;
+  color:#fff;
+  border-left: 3px solid #ed1f24;
+  padding: 20px;
+}
+
 .conteudo {
   width: min(900px, calc(100% - 2rem));
   margin: 2rem auto;
